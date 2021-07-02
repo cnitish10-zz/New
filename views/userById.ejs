@@ -1,0 +1,6 @@
+<%- include('partials/header') -%>
+<h1>user By ID page</h1>
+<p><h2> <strong>ID:</strong>  <%=user.id%>, <strong>username:</strong>   <%=user.userName%>, <strong>Full Nmae:</strong>  <%=user.fullName%> , <strong>Email:</strong><%=user.email%></h2></p>
+<button ><a href="/getUsers/<%=user._id%>/edit">edit email</a></button>    
+
+<%- include('partials/footer') -%>
